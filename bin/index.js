@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const readline = require('node:readline');
-require('dotenv').config();
 
 const rl = readline.createInterface({
     input: process.stdin,
