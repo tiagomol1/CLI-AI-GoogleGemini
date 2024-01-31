@@ -1,0 +1,20 @@
+{
+  "name": "myownchatai",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "./bin/index.js",
+  "bin": {
+    "ai": "./bin/index.js"
+  },
+  "scripts": {
+    "dev": "node ./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.3",
+    "dotenv": "^16.4.1"
+  }
+}
